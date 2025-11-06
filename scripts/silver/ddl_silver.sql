@@ -31,10 +31,6 @@
 --
 -- 6. silver.erp_px_cat_g1v2
 --    - ERP product category and maintenance metadata.
---
--- Usage:
--- - Run this script during initial setup or schema refresh cycles.
--- - Ensure downstream ETL procedures populate these tables with validated data.
 -- ================================================================
 
 IF OBJECT_ID ('silver.crm_cust_info' , 'U') IS NOT NULL
