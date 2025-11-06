@@ -11,6 +11,7 @@
 -- - Logs each step with PRINT statements
 -- - Measures duration per section and total runtime
 -- - Implements TRY...CATCH for error handling
+
 -- Usage
 -- EXEC silver.load_silver;
 
