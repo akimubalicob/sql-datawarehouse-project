@@ -1,16 +1,19 @@
 -- ================================================================
 -- ETL Script: Bronze to Silver Layer Transformation
 -- Author: Serdi Akbar
---
+
 -- Purpose:
 -- This script performs a full refresh of selected silver-layer tables
 -- by truncating existing data and inserting cleaned, standardized records
 -- from the bronze layer. It ensures data quality and consistency for downstream use.
---
+
 -- Enhancements:
 -- - Logs each step with PRINT statements
 -- - Measures duration per section and total runtime
 -- - Implements TRY...CATCH for error handling
+-- Usage
+-- EXEC silver.load_silver;
+
 -- ================================================================
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
